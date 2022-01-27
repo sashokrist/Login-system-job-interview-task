@@ -10,10 +10,14 @@
 
 
 How to run it?
-1. git@github.com:sashokrist/Login-system-job-interview-task.git
-2. composer install
-3. cp .env.example .env
-4. php artisan key:generate
+1. Download and install xampp https://www.apachefriends.org/download.html
+2. Install Composer https://getcomposer.org/Composer-Setup.exe
+3. Open Git bash or PowerShell
+4. Navigate to project directory ex: cd /c//xampp/htdocs/
+5. git clone git@github.com:sashokrist/Login-system-job-interview-task.git
+6. composer install
+7. cp .env.example .env
+8. php artisan key:generate
 
 Put in .env:
 Set database credentials
